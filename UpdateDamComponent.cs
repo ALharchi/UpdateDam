@@ -13,8 +13,10 @@ namespace UpdateDam
             UpdateOutput = true;
             PreviousData = "none";
         }
-        public override GH_Exposure Exposure { get { return GH_Exposure.primary; } }
+        protected override System.Drawing.Bitmap Icon { get { return Properties.Resources.iconUpdateDam; } }
         public override Guid ComponentGuid { get { return new Guid("72d3c7b4-0c68-48dc-877c-222842033708"); } }
+        public override GH_Exposure Exposure { get { return GH_Exposure.primary; } }
+        
 
         private bool UpdateOutput { get; set; }
         private string PreviousData { get; set; }
