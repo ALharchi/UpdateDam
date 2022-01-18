@@ -8,7 +8,6 @@ namespace UpdateDam
 {
     public class UpdateDamComponent : GH_Component
     {
-
         public UpdateDamComponent() : base("UpdateDam", "UpdateDam", "This component doesn't update the solution flow until the value changes", "Params", "Util") 
         {
             UpdateOutput = true;

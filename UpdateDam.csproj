@@ -8,8 +8,8 @@
     <ProjectGuid>{CF850B7B-7622-4397-BBDE-12820F55AC17}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConvexMeshBuilder.GH</RootNamespace>
-    <AssemblyName>ConvexMeshBuilder.GH</AssemblyName>
+    <RootNamespace>UpdateDam</RootNamespace>
+    <AssemblyName>UpdateDam</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
